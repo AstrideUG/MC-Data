@@ -1,0 +1,6 @@
+name: MCData
+main: @group@.mcdata.spigot.@name@
+version: @version@
+authors: [Lars Artmann | LartyHD]
+description: @name@ is a Minecraft Big Data Tool
+website: astride.de

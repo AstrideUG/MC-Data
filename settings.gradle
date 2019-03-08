@@ -1,0 +1,14 @@
+/*
+ * © Copyright - Lars Artmann aka. LartyHD 2018.
+ */
+
+rootProject.name = "MCData"
+rootProject.buildFileName = "build.gradle"
+
+//include(":api")
+//include(":common")
+include(":spigot")
+
+//findProject(":api")?.name = "MC-Data-API"
+//findProject(":common")?.name = "MC-Data-Common"
+findProject(":spigot")?.name = "$rootProject.name-Spigot"
