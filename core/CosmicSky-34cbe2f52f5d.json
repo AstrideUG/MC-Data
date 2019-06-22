@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cosmicsky",
+  "private_key_id": "34cbe2f52f5d24794aa0bd445259854281169745",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCdFrIc/6lnrVcU\n8s8QeU2frC0GKoLyxy0bg1Dyqz8Y+a2OkzAg7uPv05ZwNDGy0AK5mg3zJTspC/Ut\nzBXxhF8nSsOX/KCCVSqkA61vgKWRS/QZszzPek88qdMw3M0LZXQzwc4k6qIHXDbX\nqO4dV2pUl+fBrOzOsOeSqxCNLR3Cp1Te0O4GxP3e+JGyOwOP8kPAUlO/ifW6p/DA\nOSVHEHGiuvfmh0KgUFbA/2/3myJFV9LCQM8rIKOcPUoxujpJv3zZvn3hvJP6/has\nE0lnQsW4MsgBmLTqATQlWkAnb4xhVufphz00FShbSJPNVDQivgecUZXxsKJArGnT\nRmMcbtbfAgMBAAECggEAO2jVdM0l8t1mJTiNIhRWTJBvuLjELHAyeYjIyPYF13q5\n7kVxOstOLint58J9lzw/A5WlN/M5NBVfJPJdzCj9WZ1XargytgfiqAPyCEz1kQVS\nLJQSZ/9AT1eE1SJ0c55re5WM0n5gR/tSjG5Jm5QvVQ3cKu2s46CY++mxSUsqSa6q\nBgy2WDTLyjI/g349i49VfYMaAv/9uIzJyC+uRo2bE8UgOyf7eddiKQl6fCST66dw\natd6QG/TD/PHwsefjosq6vy25BqIyZEGfMoW+oOSp8wh2ibUu9rKdi9P7jDR+B3F\nypSz40mYqNC+72Z/lgqPwonNs1nMUYdu3VkQ5/fF3QKBgQDXHWImaMne9IhNxXV4\nSarSsCqv2NiRkCE+xx8C9duYRPtx4anLe3RpYeKilnypx378H1CvkV5mt6Cf+Fk4\nPAum2/lAnH9p+4YETT9dZ4+kLXZbx3EuWb3v27XNv3Th28OKFrs+SYm69+KS9P5i\nRTX7bFCrAi5Z3PIyKKMtDM8fdQKBgQC68f7W2kh7bzkOg1rqiEPDnxDa5ROT+MHy\ncyFEMABLtI7e25MBSTJWIWB9muLnpVMPuEh9LcWxWw1H5SJ+6MkiSDPJrfoglRS9\nqYNlreGLzIgSE3d3FYxVUzGKMWUdyjJN40wA+2VcmZqhVGNHMrRyfdBHHJvdcZNT\nfSvy+0EGgwKBgQCpZSIdTPdq8vVDCPNwPdKfBssWnpQsTGthnDv3gNPkHK5FB4dG\nDXmmYsatcgPJTqfYsnA/USIdkQyT7GWVuvMR+rdVAefz9XWbfZkgXKTojERgEbY2\n4cSIVWPdGZ9ZHE3nN+9LJW2oJfvt7a9Eg2v3CVyczaLicPLoPMgCecvA4QKBgDIq\nzLt1emv9be9SGqzDgoPVhN1pCfb0k39vm+bDhuDKBGkTvYBj1yk77bvnO6r0N7UJ\nPBKznNC6YXcAq2ApMgiMHbGqiWwC9bzr54H6xoMQkRdgt/dyBeXD3JB8LuluoE88\nhuHglNPjuJZAoh+yILB0yNa8e6tSVjnaZlffSxTnAoGARMlwjHXsGxk8CKjkpk5b\n/BmTH3rTYfBKTw91c9EPDe9/2FMlz9Mdaw5r+VUTDc7fA0TvgE80dNwD6iJQhLZw\nMBBjmMLuFATgHPdfPB5Fc9TDN877HTGE6LJ7fB5BefpcKKSxejzAJR+vOSHKasEj\n6/wnU065k7blIf3E9vJm7Fk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "datastore-user@cosmicsky.iam.gserviceaccount.com",
+  "client_id": "112576667938218278413",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/datastore-user%40cosmicsky.iam.gserviceaccount.com"
+}

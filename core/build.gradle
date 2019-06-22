@@ -1,0 +1,19 @@
+/*
+ * © Copyright - Lars Artmann aka. LartyHD 2019.
+ */
+
+dependencies {
+    jarLibs project(":MCData-Common")
+
+    jarLibs(fileTree(libsDirName))
+
+    jarLibs "org.jetbrains.kotlin:kotlin-stdlib"
+    jarLibs "org.jetbrains.kotlin:kotlin-reflect"
+    jarLibs "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.0.1"
+}
+
+jar {
+    manifest {
+        attributes("Main-Class": "de.astride.mcdata.core.MCDataMain")
+    }
+}
