@@ -10,7 +10,5 @@ import org.bson.conversions.Bson
  * @author Lars Artmann | LartyHD
  */
 
-//TODO crate a issue for darkness to a this
-
 fun MongoCollection<*>.exists(bson: Bson): Boolean = firstOrNull(bson) != null
 fun <T> MongoCollection<T>.firstOrNull(bson: Bson): T? = find(bson).limit(1).firstOrNull()
