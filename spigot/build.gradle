@@ -3,5 +3,6 @@
  */
 
 dependencies {
+    jarLibs project(":MCData-Common")
     compileOnly("org.spigotmc:spigot-api:${versions_spigot}")
 }

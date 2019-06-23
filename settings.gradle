@@ -6,9 +6,11 @@ rootProject.name = "MCData"
 rootProject.buildFileName = "build.gradle"
 
 //include(":api")
-//include(":common")
+include(":common")
 include(":spigot")
+include(":velocity")
 
 //findProject(":api")?.name = "MC-Data-API"
-//findProject(":common")?.name = "MC-Data-Common"
+findProject(":common")?.name = "$rootProject.name-Common"
 findProject(":spigot")?.name = "$rootProject.name-Spigot"
+findProject(":velocity")?.name = "$rootProject.name-Velocity"

@@ -1,0 +1,33 @@
+/*
+ * © Copyright - Lars Artmann aka. LartyHD 2019.
+ */
+
+version = "1.0.0"
+
+
+repositories {
+    maven { url = 'https://repo.velocitypowered.com/snapshots/' }
+}
+
+dependencies {
+
+    jarLibs project(":MCData-Common")
+
+    jarLibs('org.litote.kmongo:kmongo:3.10.2') {
+        exclude(group: "org.jetbrains.kotlin")
+        exclude(group: "org.mongodb")
+        exclude(group: "de.undercouch")
+        exclude(group: "org.bson")
+        exclude(module: "bson")
+    }
+
+    compileOnly "com.velocitypowered:velocity-api:$versions_velocity"
+    annotationProcessor "com.velocitypowered:velocity-api:$versions_velocity"
+
+}
+compileKotlin {
+    kotlinOptions {
+        freeCompilerArgs = ["-XXLanguage:+InlineClasses"]
+    }
+}
+

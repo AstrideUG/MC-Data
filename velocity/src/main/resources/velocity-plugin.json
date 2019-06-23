@@ -1,0 +1,17 @@
+{
+  "id": "mcdata-velocity",
+  "name": "MCData-Velocity",
+  "version": "@version@",
+  "description": "MCData is a BigData login plugin",
+  "url": "astride.de",
+  "authors": [
+    "Lars Artmann | LartyHD"
+  ],
+  "dependencies": [
+    {
+      "id": "darkframe",
+      "optional": false
+    }
+  ],
+  "main": "de.astride.mcdata.velocity.MCDataVelocity"
+}
