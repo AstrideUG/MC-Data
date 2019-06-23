@@ -1,3 +1,7 @@
+/*
+ * © Copyright by Astride UG (haftungsbeschränkt) 2018 - 2019.
+ */
+
 @file:Suppress("unused")
 
 package de.astride.mcdata.velocity.functions

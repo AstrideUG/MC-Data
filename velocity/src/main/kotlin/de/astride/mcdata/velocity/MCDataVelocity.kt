@@ -1,3 +1,7 @@
+/*
+ * © Copyright by Astride UG (haftungsbeschränkt) 2018 - 2019.
+ */
+
 package de.astride.mcdata.velocity
 
 import com.google.gson.JsonObject

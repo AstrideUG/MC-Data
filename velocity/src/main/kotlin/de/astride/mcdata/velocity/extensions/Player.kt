@@ -1,3 +1,7 @@
+/*
+ * © Copyright by Astride UG (haftungsbeschränkt) 2018 - 2019.
+ */
+
 package de.astride.mcdata.velocity.extensions
 
 import com.velocitypowered.api.proxy.Player

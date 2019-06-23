@@ -1,3 +1,7 @@
+/*
+ * © Copyright by Astride UG (haftungsbeschränkt) 2018 - 2019.
+ */
+
 package de.astride.mcdata.velocity.storage
 
 import de.astride.mcdata.velocity.proxies.PlayerId
@@ -8,7 +12,7 @@ import de.astride.mcdata.velocity.structure.PlayerEntry
  * @author Lars Artmann | LartyHD
  */
 interface PlayerEntryHandler {
-    
+
     fun exists(uuid: PlayerId): Boolean
 
     operator fun get(uuid: PlayerId): PlayerEntry?

@@ -1,3 +1,7 @@
+/*
+ * © Copyright by Astride UG (haftungsbeschränkt) 2018 - 2019.
+ */
+
 package de.astride.mcdata.velocity.storage.mongodb
 
 import de.astride.mcdata.velocity.proxies.PlayerId
