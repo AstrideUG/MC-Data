@@ -11,6 +11,7 @@ import de.astride.mcdata.velocity.functions.firstOrNull
 import de.astride.mcdata.velocity.proxies.PlayerId
 import de.astride.mcdata.velocity.storage.PlayerEntryHandler
 import de.astride.mcdata.velocity.structure.PlayerEntry
+import org.litote.kmongo.save
 
 /**
  * Created on 23.06.2019 00:52.
@@ -27,21 +28,21 @@ object MongoPlayerEntryHandler : PlayerEntryHandler {
     override fun getOrCreate(uuid: PlayerId, username: String): PlayerEntry = get(uuid) ?: PlayerEntry(uuid, username)
 
     override fun add(entry: PlayerEntry) {
-//        collection.save(entry)
-        val id = entry.uuid
-//        collection.replaceOneById(id, entry, ReplaceOptions().upsert(true))
-        if (exists(id))
-            collection.insertOne(entry)
-        else {
-            collection.updateOne(
-                Filters.eq(PlayerEntry::uuid.name, id),
-                Filters.eq(PlayerEntry::username.name, entry.username)
-            )
-            collection.updateOne(
-                Filters.eq(PlayerEntry::uuid.name, id),
-                Filters.eq(PlayerEntry::sessions.name, entry.sessions)
-            )
-        }
+        collection.save(entry)
+//        val id = entry.uuid
+////        collection.replaceOneById(id, entry, ReplaceOptions().upsert(true))
+//        if (exists(id))
+//            collection.insertOne(entry)
+//        else {
+//            collection.updateOne(
+//                Filters.eq(PlayerEntry::uuid.name, id),
+//                Filters.eq(PlayerEntry::username.name, entry.username)
+//            )
+//            collection.updateOne(
+//                Filters.eq(PlayerEntry::uuid.name, id),
+//                Filters.eq(PlayerEntry::sessions.name, entry.sessions)
+//            )
+//        }
     }
 
 }
